@@ -1,0 +1,13 @@
+void put (char ch) {
+ if (putloc==q.length) {
+  system.out.println(" - Queue is full.");
+  return;
+}
+char get() { 
+if(getloc == putloc) { 
+  system . out.println (" -Queue is empty.");
+  return(char) 0;
+ }
+return q[getloc++];
+ } 
+}
