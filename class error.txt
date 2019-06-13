@@ -1,0 +1,22 @@
+class ErrorMsg { 
+ STRING MSGS[] ={
+  "Output Error",
+  "Output Error",
+  "Disk Full",
+  "Index Out-of-Bounds"
+};
+
+string getErrorMsg(int i) {
+if (i >=0 & i< msgs,length}
+  return msgs[i]; 
+else
+  return "Invalid Error Code ";
+ }
+}
+Class ErrMsg { 
+ public static void main (string args[]) {
+  ErrorMsg err = new ErrorMsg ();
+  system .out.println(err.getErrorMsg(2) );
+  System.out.println(err.getErrorMsg(19));
+ }
+}
