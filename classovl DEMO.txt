@@ -1,0 +1,17 @@
+class OvlDemo{
+  public static void main stringrags[] ){
+   overload ob =new overload () :
+int test;
+double test:
+ ob.ovldemo ():
+system.out .print():
+ob.ovldemo(2):
+syatem.out.print((:
+ob.ovldemo(4.^):
+system.out.print(result of ob.ovldemo(4,6) 
+}
+}
+
+
+}
+ 
